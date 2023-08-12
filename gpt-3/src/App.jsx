@@ -9,7 +9,7 @@ function App() {
     <>
       <div>
         <div className='App'>
-          <div className='Gradient__bg'>
+          <div className='gradient__bg'>
             <Navbar />
             <Header />
           </div>
