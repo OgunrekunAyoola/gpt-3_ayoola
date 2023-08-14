@@ -33,7 +33,7 @@
   color: #fff;
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 10px;
+  font-size: 15px;
   font-style: normal;
   line-height: 25px;
   text-transform: capitalize;
@@ -85,9 +85,36 @@
   margin: 1rem 0;
 }
 
-.gpt3__navbar-menu_container-linls-sign {
+.gpt3__navbar-menu_container-links-sign {
   display: none;
 }
 
 @media screen and (max-width: 1050px) {
+  .gpt3__navbar-links_container {
+    display: none;
+  }
+  .gpt3__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__navbar {
+    padding: 2rem;
+  }
+  .gpt3__navbar-sign {
+    display: none;
+  }
+  .gpt3__navbar-menu_container {
+    top: 20px;
+  }
+  .gpt3__navbar-menu_container-links-sign {
+    display: block;
+  }
 }
