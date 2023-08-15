@@ -137,4 +137,9 @@
     font-size: 14px;
     line-height: 22px;
   }
+  .gpt3__header-content__input input,
+  .gpt3__header-content__input button {
+    line-height: 16x;
+    font-size: 12px;
+  }
 }
