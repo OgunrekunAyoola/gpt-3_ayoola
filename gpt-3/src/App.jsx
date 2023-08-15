@@ -1,20 +1,26 @@
-import React from 'react'
-import { Features, Blog, Possibility, Footer, whatGPT3, Header} from './container';
-import { CTA, Brand, Navbar } from './components';
-import './App.css';
-
+import React from "react";
+import {
+  Features,
+  Blog,
+  Possibility,
+  Footer,
+  WhatGPT3,
+  Header,
+} from "./container";
+import { CTA, Brand, Navbar } from "./components";
+import "./App.css";
 
 function App() {
   return (
     <>
       <div>
-        <div className='App'>
-          <div className='gradient__bg'>
+        <div className="App">
+          <div className="gradient__bg">
             <Navbar />
             <Header />
           </div>
           <Brand />
-          <whatGPT3 />
+          <WhatGPT3 />
           <Features />
           <Possibility />
           <CTA />
@@ -23,7 +29,7 @@ function App() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
